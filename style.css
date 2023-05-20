@@ -3,3 +3,47 @@ body {
   height: 100%;
   margin: 0;
 }
+
+/*centers the h1 title on the page not of the page*/
+/*25% + 50 + 25 = 100% width*/
+header
+{
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+/*centers the image and caption below it*/
+#featured-property {
+  width: 800px;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 9px;
+}
+
+.figtext {
+  margin-left: 15%;
+  margin-right: 5%;
+}
+
+img {
+  margin-left: -5%;
+  margin-right: 45%;
+}
+
+.navlinks {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: yellow;
+}
+
+#details
+{
+  background-color: red;
+}
+
+div {
+  float: left;
+  background-color: red;
+  padding-left: 8%;
+  padding-right: 8%;
+}
